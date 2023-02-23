@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Modal.css">
+    <title>Modal</title>
+</head>
+<body>
+<div>     
+<button class="btn show-modal">Show Modal 1  </button>
+<button class="btn show-modal">Show Modal 2  </button>
+<button class="btn show-modal">Show Modal 3  </button>
+</div>   
+<div class="Modal hidden">
+ <p>
+ <h1>I'am a Modal Window 😍</h1>     
+ <span class="closemodal">x </span>
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, 
+ facilis. Libero labore repellendus quam, amet ipsam laboriosam 
+ necessitatibus ullam rerum corporis repudiandae architecto odit. 
+ Ipsam sint sunt exercitationem id illo?
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, 
+ facilis. Libero labore repellendus quam, amet ipsam laboriosam 
+ necessitatibus ullam rerum corporis repudiandae architecto odit. 
+ Ipsam sint sunt exercitationem id illo?
+ </p>
+</div>
+<div class="overlay hidden">
+</div>
+
+<script>
+const Modal=document.querySelector('.Modal');
+const overlay=document.querySelector('.overlay');
+const btnCloseModal = document.querySelector('.closemodal');
+const btnOpenModal = document.querySelectorAll('.show-modal');
+
+const closeModal =function()
+      {
+        console.log("buttonClicked");
+        Modal.classList.add('hidden');
+        overlay.classList.add('hidden');
+      }
+const openModal =function(){
+        console.log("buttonClicked");
+        Modal.classList.remove('hidden');
+        overlay.classList.remove('hidden');
+    }
+for (i=0 ; i<btnOpenModal.length ; i++)
+{
+    btnOpenModal[i].addEventListener('click', openModal)
+}
+   btnCloseModal.addEventListener('click',closeModal)
+   document.addEventListener('keydown',function(e){
+   if(e.key === 'Escape'){
+   if (!Modal.classList.contains('hidden')){
+       closeModal();
+        }
+        }  
+    });
+
+</script>
+</body>
+</html>

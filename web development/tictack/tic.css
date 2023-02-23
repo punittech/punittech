@@ -1,0 +1,11 @@
+.tdleft {
+    border-left: 1px solid blue;
+    border-width: 100px;    
+}
+
+.tdbottom {
+    border-bottom: 1px solid #0000ff ;
+}
+.tdtop {
+    border-top: 1px solid blue ;
+}

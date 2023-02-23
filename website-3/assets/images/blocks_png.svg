@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.blocks{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.text_1{fill:none;}
+	.text_2{fill:#FF8C00;}
+	.text_3{font-family:'MyriadPro-Regular';}
+	.text_4{font-size:48px;}
+	.text_5{letter-spacing:3;}
+	.text_6{font-size:18px;}
+	.text_7{letter-spacing:1;}
+	.blocks:hover{
+		fill: black;
+		transition: fill 1s;
+	}
+	.color:hover{
+		fill: black;
+		transition: fill 1s;
+		cursor: pointer;
+	}
+	svg#Layer_3{
+		position: absolute;
+		top: 1666px;
+		right: 45px;
+		width: 1160px;
+	}
+</style>
+<path d="M643.5,80.5"/>
+<rect x="707.5" y="73.5" class="blocks" width="148" height="148"/>
+<rect x="854.5" y="73.5" class="blocks" width="148" height="148"/>
+<rect x="855.5" y="221.5" class="blocks" width="148" height="148"/>
+<rect x="1002.5" y="221.5" class="blocks" width="148" height="148"/>
+<rect x="855.5" y="367.5" class="blocks" width="148" height="148"/>
+<rect x="1002.5" y="367.5" class="blocks" width="148" height="148"/>
+<rect x="724" y="96" class="text_1" width="115" height="47"/>
+<text transform="matrix(1 0 0 1 733.501 130.0796)" class="text_2 text_3 text_4 text_5 color">Mad</text>
+<rect x="872" y="95.5" class="text_1" width="115" height="47"/>
+<text transform="matrix(1 0 0 1 878.5244 129.5796)" class="text_2 text_3 text_4 text_5 color">Wdd</text>
+<rect x="872" y="237" class="text_1" width="115" height="47"/>
+<text transform="matrix(1 0 0 1 876.2451 271.0796)" class="text_2 text_3 text_4 text_5 color">Dmb</text>
+<rect x="874" y="392" class="text_1" width="115" height="47"/>
+<text transform="matrix(1 0 0 1 904.332 426.0796)" class="text_2 text_3 text_4 text_5 color">Sd</text>
+<rect x="1018" y="390" class="text_1" width="115" height="47"/>
+<text transform="matrix(1 0 0 1 1032.3242 424.0796)" class="text_2 text_3 text_4 text_5 color">Ods</text>
+<rect x="1010.3" y="238" class="text_1" width="132.5" height="47"/>
+<text transform="matrix(1 0 0 1 1010.5732 272.0796)" class="text_2 text_3 text_4 text_5 color">UI/UX</text>
+<rect x="717" y="147.5" class="text_1" width="126" height="64.5"/>
+<text transform="matrix(1 0 0 1 730.2305 160.2798)"><tspan x="0" y="0" class="text_2 text_3 text_6 text_7 color">Mobile App </tspan><tspan x="-8.5" y="24" class="text_2 text_3 text_6 text_7 color">Development</tspan></text>
+<rect x="865" y="140.3" class="text_1" width="132" height="64.5"/>
+<text transform="matrix(1 0 0 1 896.5488 153.0298)"><tspan x="0" y="0" class="text_2 text_3 text_6 text_7 color">Website </tspan><tspan x="-2.9" y="24" class="text_2 text_3 text_6 text_7 color">design &amp; </tspan><tspan x="-23.8" y="48" class="text_2 text_3 text_6 text_7 color">Development</tspan></text>
+<rect x="865.5" y="285" class="text_1" width="126" height="64.5"/>
+<text transform="matrix(1 0 0 1 899.7725 297.7798)"><tspan x="0" y="0" class="text_2 text_3 text_6 text_7 color">Digital </tspan><tspan x="-23.7" y="24" class="text_2 text_3 text_6 text_7 color">Marketing &amp; </tspan><tspan x="-10.4" y="48" class="text_2 text_3 text_6 text_7 color">Branding</tspan></text>
+<rect x="1012.5" y="285" class="text_1" width="126" height="64.5"/>
+<text transform="matrix(1 0 0 1 1042.1016 297.7798)"><tspan x="0" y="0" class="text_2 text_3 text_6 text_7 color">Graphic </tspan><tspan x="-4" y="24" class="text_2 text_3 text_6 text_7 color">design &amp; </tspan><tspan x="-23.2" y="48" class="text_2 text_3 text_6 text_7 color">UI/UX design</tspan></text>
+<rect x="866.5" y="437" class="text_1" width="126" height="64.5"/>
+<text transform="matrix(1 0 0 1 891.376 449.7798)"><tspan x="0" y="0" class="text_2 text_3 text_6 text_7 color">Software </tspan><tspan x="-20.1" y="24" class="text_2 text_3 text_6 text_7 color">Development</tspan></text>
+<rect x="1013.5" y="437" class="text_1" width="126" height="64.5"/>
+<text transform="matrix(1 0 0 1 1025.5781 449.7798)"><tspan x="0" y="0" class="text_2 text_3 text_6 text_7 color">On Demand </tspan><tspan x="15.6" y="24" class="text_2 text_3 text_6 text_7 color">solution</tspan></text>
+</svg>
+
+

@@ -1,0 +1,369 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset1 Cambria Math;}{\f2\fnil\fcharset0 Cambria Math;}{\f3\fnil Cambria Math;}}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9                                                    Shri Ganeshay Namah\par
+JavaScript Questions : 100.\par
+1.Concurrency\par
+2.asyn syn ajax\par
+3.DSA\par
+4.hoisting\par
+5.type coercion\par
+6.Behavioral interview.\par
+\par
+\par
+\par
+\par
+\b 1. Following are the advantages of using JavaScript \f1\u8722?\f0\par
+\b0 Less server interaction \f1\u8722?\f0  You can validate user input before sending the page off to the server. This saves server traffic, which means less load on your server.\par
+Immediate feedback to the visitors \f1\u8722?\f0  They don\rquote t have to wait for a page reload to see if they have forgotten to enter something.\par
+Increased interactivity \f1\u8722?\f0  You can create interfaces that react when the user hovers over them with a mouse or activates them via the keyboard.\par
+Richer interfaces \f1\u8722?\f0  You can use JavaScript to include such items as drag-and-drop components and sliders to give a Rich Interface to your site visitors.\b\par
+2.\b0\f2  \b\f0 How\f2  \f0 can\f2  \f0 you\f2  \f0 create\f2  \f0 an\f2  \f0 object\f2  \f0 in\f2  \f0 JavaScript\f2 ?\f0\par
+\b0 JavaScript\f2  \f0 supports\f2  \f0 Object\f2  \f0 concept\f2  \f0 very\f2  \f0 well\f2 . \f0 You\f2  \f0 can\f2  \f0 create\f2  \f0 an\f2  \f0 object\f2  \f0 using\f2  \f0 the\f2  \f0 object\f2  \f0 literal\f2  \f0 as\f2  \f0 follows\f2  \f1\u8722?\f0\par
+var\f2  \f0 emp\f2  = \{\f0\par
+name\f2 : \f0 "Daniel"\f2 ,\f0\par
+age\f2 : \f0 23\par
+\f2\};\b\par
+3. What is a name function in JavaScript & how to define it?\par
+\b0 A named function declares a name as soon as it is defined. It can be defined using function keyword as :\par
+function named()\{\par
+// write code here\par
+\}\b\par
+4. Can you assign an anonymous function to a variable and pass it as an argument to another function?\par
+\b0 Yes! An anonymous function can be assigned to a variable. It can also be passed as an argument to another function.\par
+\par
+In case you are facing any challenges with these JavaScript Interview Questions, please comment on your problems in the section below.\b\par
+5.What is argument objects in JavaScript & how to get the type of arguments passed to a function?\par
+\b0 JavaScript variable arguments represents the arguments that are passed to a function. Using typeof operator, we can get the type of arguments passed to a function. For example\par
+function func(x)\{\par
+console.log(typeof x, arguments.length);\par
+\}\par
+func(); //==> "undefined", 0\par
+func(7); //==> "number", 1\par
+func("1", "2", "3"); //==> "string", 3\b\par
+6.What are the scopes of a variable in JavaScript?\par
+\b0 The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.\par
+\bullet  Global Variables \f1\u8722? A global variable has global scope which means it is visible everywhere in your JavaScript code.\par
+\bullet  Local Variables \u8722? A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.\par
+\b 7.What is the purpose of \lquote This\rquote  operator in JavaScript?\par
+\b0 The JavaScript this keyword refers to the object it belongs to. This has different values depending on where it is used. In a method, this refers to the owner object and in a function, this refers to the global object.\par
+\b 8.What is Callback?\par
+\b0 A callback is a plain JavaScript function passed to some method as an argument or option. It is a function that is to be executed after another function has finished executing, hence the name \lquote call back\lquote . In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions.\par
+\b 9.What is Closure? Give an example.\par
+\b0 Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer function\rquote s scope from an inner function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it.\par
+\b 10.Q16. Name some of the built-in methods and the values returned by them.\par
+\b0 Built-in Method\tab Values\par
+CharAt()\tab It returns the character at the specified index.\par
+Concat()\tab It joins two or more strings.\par
+forEach()\tab It calls a function for each element in the array.\par
+indexOf()\tab It returns the index within the calling String object of the first occurrence of the specified value.\par
+length()\tab It returns the length of the string.\par
+pop()\tab It removes the last element from an array and returns that element.\par
+push()\tab It adds one or more elements to the end of an array and returns the new length of the array.\par
+reverse()\tab It reverses the order of the elements of an array.\par
+\b 11. What are the variable naming conventions in JavaScript?\b0\par
+The following rules are to be followed while naming variables in JavaScript:\par
+You should not use any of the JavaScript reserved keyword as variable name. For example, break or boolean variable names are not valid.\par
+JavaScript variable names should not start with a numeral (0-9). They must begin with a letter or the underscore character. For example, 123name is an invalid variable name but _123name or name123 is a valid one.\par
+JavaScript variable names are case sensitive. For example, Test and test are two different variables.\b\par
+12.How does TypeOf Operator work?\par
+\b0 The typeof operator is used to get the data type of its operand. The operand can be either a literal or a data structure such as a variable, a function, or an object. It is a unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.\par
+\b 13. How to create a cookie using JavaScript?\b0\par
+The simplest way to create a cookie is to assign a string value to the document.cookie object, which looks like this-\par
+Syntax :\par
+document.cookie = "key1 = value1; key2 = value2; expires = date";\par
+\b 14.How to read a cookie using JavaScript?\b0\par
+Reading a cookie is just as simple as writing one, because the value of the document.cookie object is the cookie. So you can use this string whenever you want to access the cookie.\par
+\par
+The document.cookie string will keep a list of name = value pairs separated by semicolons, where name is the name of a cookie and value is its string value.\par
+You can use strings\rquote  split() function to break the string into key and values.\b\par
+15. How to delete a cookie using JavaScript?\par
+\b0 If you want to delete a cookie so that subsequent attempts to read the cookie in JavaScript return nothing, you just need to set the expiration date to a time in the past. You should define the cookie path to ensure that you delete the right cookie. Some browsers will not let you delete a cookie if you don\rquote t specify the path.\b\par
+16.What is the difference between Attributes and Property?\par
+\b0 Attributes-  provide more details on an element like id, type, value etc.\par
+Property-  is the value assigned to the property like type=\rdblquote text\rdblquote , value=\rquote Name\rquote  etc.\b\par
+17. List out the different ways an HTML element can be accessed in a JavaScript code.\par
+\b0 Here are the list of ways an HTML element can be accessed in a Javascript code:\par
+(i) getElementById(\lquote idname\rquote ): Gets an element by its ID name\par
+(ii) getElementsByClass(\lquote classname\rquote ): Gets all the elements that have the given classname.\par
+(iii) getElementsByTagName(\lquote tagname\rquote ): Gets all the elements that have the given tag name.\par
+(iv) querySelector(): This function takes css style selector and returns the first selected element.\b\par
+18. In how many ways a JavaScript code can be involved in an HTML file?\par
+\b0 There are 3 different ways in which a JavaScript code can be involved in an HTML file:\par
+Inline\par
+Internal\par
+External\par
+An inline function is a JavaScript function, which is assigned to a variable created at runtime. You can differentiate between Inline Functions and Anonymous since an inline function is assigned to a variable and can be easily reused. When you need a JavaScript for a function, you can either have the script integrated in the page you are working on, or you can have it placed in a separate file that you call, when needed. This is the difference between an internal script and an external script.\par
+\b 19. What are the ways to define a variable in JavaScript?\b0\par
+The three possible ways of defining a variable in JavaScript are:\par
+Var \endash  The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable. Example: var a =10; Variable declarations are processed before the execution of the code.\par
+Const \endash  The idea of const functions is not allow them to modify the object on which they are called. When a function is declared as const, it can be called on any type of object.\par
+Let \endash  It is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm. It also signals that the variable will be used only in the block it\rquote s defined in.\par
+\b 20. What is a Typed language?\b0\par
+Typed Language is in which the values are associated with values and not with variables. It is of two types:\par
+Dynamically: in this, the variable can hold multiple types; like in JS a variable can take number, chars.\par
+Statically: in this, the variable can hold only one type, like in Java a variable declared of string can take only set of characters and nothing else.\par
+\b 21. What is the difference between Local storage & Session storage?\par
+Local Storage \endash  \b0 The data is not sent back to the server for every HTTP request (HTML, images, JavaScript, CSS, etc) \endash  reducing the amount of traffic between client and server. It will stay until it is manually cleared through settings or program.\par
+\b Session Storage \endash  \b0 It is similar to local storage; the only difference is while data stored in local storage has no expiration time, data stored in session storage gets cleared when the page session ends. Session Storage will leave when the browser is closed.\par
+\b 22.What is the difference between the operators \lquote ==\lquote  & \lquote ===\lquote ?\par
+\b0 The main difference between \ldblquote ==\rdblquote  and \ldblquote ===\rdblquote  operator is that formerly compares variable by making type correction e.g. if you compare a number with a string with numeric literal, == allows that, but === doesn\rquote t allow that, because it not only checks the value but also type of two variable, if two variables are not of the same type \ldblquote ===\rdblquote  return false, while \ldblquote ==\rdblquote  return true.\b\par
+23.What is the difference between null & undefined?\par
+\b0 Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value. Also, undefined and null are two distinct types: undefined is a type itself (undefined) while null is an object.\par
+\b 24.What is the difference between undeclared & undefined?\b0\par
+Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered. Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned.\b\par
+25. What is the difference between innerHTML & innerText?\par
+\b0 innerHTML \endash  It will process an HTML tag if found in a string\par
+innerText \endash  It will not process an HTML tag if found in a string\par
+\b 26. What is an event bubbling in JavaScript?\b0\par
+Event bubbling is a way of event propagation in the HTML DOM API, when an event occurs in an element inside another element, and both elements have registered a handle for that event. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. The execution starts from that event and goes to its parent element. Then the execution passes to its parent element and so on till the body element.\par
+\b 27. How can you convert the string of any base to integer in JavaScript?\b0\par
+The parseInt() function is used to convert numbers between different bases. It takes the string to be converted as its first parameter, and the second parameter is the base of the given string.\par
+For example-\par
+parseInt("4F", 16)\b\par
+28. What would be the result of 2+5+\rdblquote 3\u8243??\par
+\b0 Since 2 and 5 are integers, they will be added numerically. And since 3 is a string, its concatenation will be done. So the result would be 73. The \rdblquote  \rdblquote  makes all the difference here and represents 3 as a string and not a number.\par
+\b 29.What is the \lquote Strict\rquote  mode in JavaScript and how can it be enabled?\par
+\b0 Strict mode is a way to introduce better error-checking into your code.\par
+When you use strict mode, you cannot use implicitly declared variables, or assign a value to a read-only property, or add a property to an object that is not extensible.\par
+You can enable strict mode by adding \ldblquote use strict\rdblquote  at the beginning of a file, a program, or a function.\b\par
+30.What is a prompt box in JavaScript?\par
+\b0 A prompt box is a box which allows the user to enter input by providing a text box. The prompt() method displays a dialog box that prompts the visitor for input. A prompt box is often used if you want the user to input a value before entering a page. When a prompt box pops up, the user will have to click either \ldblquote OK\rdblquote  or \ldblquote Cancel\rdblquote  to proceed after entering an input value.\par
+\b 31. What will be the output of the code below?\b0\par
+var Y = 1;\par
+if (function F()\{\})\par
+\{\par
+y += Typeof F;</span>\par
+\}\par
+console.log(y);\par
+The output would be 1undefined. The if condition statement evaluates using eval, so eval(function f()\{\}) returns function f()\{\} (which is true). Therefore, inside the if statement, executing typeof f returns undefined because the if statement code executes at run time, and the statement inside the if condition is evaluated during run time.\b\par
+32. What is the difference between Call & Apply?\par
+\b0 The call() method calls a function with a given this value and arguments provided individually.\par
+Syntax-\par
+fun.call(thisArg[, arg1[, arg2[, ...]]])\par
+The apply() method calls a function with a given this value, and arguments provided as an array.\par
+Syntax-\par
+fun.apply(thisArg, [argsArray])\par
+\b 33. How to empty an Array in JavaScript?\par
+\b0 There are a number of methods you can use to empty an array:\par
+\b Method 1 \endash\b0\par
+arrayList = []\par
+Above code will set the variable arrayList to a new empty array. This is recommended if you don\rquote t have references to the original array arrayList anywhere else, because it will actually create a new, empty array. You should be careful with this method of emptying the array, because if you have referenced this array from another variable, then the original reference array will remain unchanged.\b\par
+Method 2 \endash\par
+\b0 arrayList.length = 0;\par
+The code above will clear the existing array by setting its length to 0. This way of emptying the array also updates all the reference variables that point to the original array. Therefore, this method is useful when you want to update all reference variables pointing to arrayList.\par
+\b Method 3 \endash\b0\par
+arrayList.splice(0, arrayList.length);\par
+The implementation above will also work perfectly. This way of emptying the array will also update all the references to the original array.\par
+\b Method 4 \endash\b0\par
+while(arrayList.length)\par
+\{\par
+arrayList.pop();\par
+\}\par
+The implementation above can also empty arrays, but it is usually not recommended to use this method often.\par
+\b 34.What will be the output of the following code?\par
+\b0 var Output = (function(x)\par
+\{\par
+Delete X;\par
+return X;\par
+\}\par
+)(0);\par
+console.log(output);\par
+The output would be 0. The delete operator is used to delete properties from an object. Here x is not an object but a local variable. delete operators don\rquote t affect local variables.\par
+\b 35.What will be the output of the following code?\par
+\b0 var X = \{ Foo : 1\}; \par
+var Output = (function() \par
+\{ \par
+delete X.foo; \par
+return X.foo; \par
+\} \par
+)( ); \par
+console.log(output);\par
+The output would be undefined. The delete operator is used to delete the property of an object. Here, x is an object which has the property foo, and as it is a self-invoking function, we will delete the foo property from object x. After doing so, when we try to reference a deleted property foo, the result is undefined.\par
+\b Q36. What will be the output of the following code\b0 ?\par
+var Employee =\par
+\{\par
+company: 'xyz'\par
+\}\par
+var Emp1 = Object.create(employee);\par
+delete Emp1.company Console.log(emp1.company);\par
+The output would be xyz. Here, emp1 object has company as its prototype property. The delete operator doesn\rquote t delete prototype property. emp1 object doesn\rquote t have company as its own property. However, we can delete the company property directly from the Employee object using delete Employee.company.\par
+\b 38. What will be the output of the code below? \par
+\b0 //nfe (named function expression)\par
+var Foo = Function Bar()\par
+\{\par
+return 7;\par
+\};\par
+typeof Bar();\par
+The output would be Reference Error. A function definition can have only one reference variable as its function name.\par
+\b 39.What is the reason for wrapping the entire content of a JavaScript source file in a function book?\par
+\b0 This is an increasingly common practice, employed by many popular JavaScript libraries. This technique creates a closure around the entire contents of the file which, perhaps most importantly, creates a private namespace and thereby helps avoid potential name clashes between different JavaScript modules and libraries.\par
+\par
+Q1: What is typeof operator?  \par
+\par
+Q2: What is the object type?  \par
+\par
+Q3: Explain arrays in JavaScript  \f2\lang1033 ?\f3\par
+\par
+Q4: What is Scope in JavaScript?  \par
+\par
+Q5: Explain equality in JavaScript  \par
+\par
+Q6: Explain Values and Types in JavaScript  \par
+ \par
+Q7: What is let keyword in JavaScript?  \par
+ \par
+Q8: Explain Null and Undefined in JavaScript  \par
+ \par
+Q9: What is strict mode?  \par
+ \par
+Q10: What is a Polyfill?  \par
+ \par
+Q11: Explain event bubbling and how one may prevent it  \par
+ \par
+Q12: What does use strict do?  \par
+ \par
+Q13: What language constructions do you use for iterating over object properties and array items?  \par
+ \par
+Q14: Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?  \par
+ \par
+Q15: What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?  \par
+ \par
+Q16: Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?  \par
+ \par
+Q17: Explain the same-origin policy with regards to JavaScript.  \par
+ \par
+Q18: What's the difference between throw Error('msg') vs throw new Error('msg')?  \par
+ \par
+Q19: What is the difference between == and ===?  \par
+ \par
+Q20: Is there anyway to force using strict mode in Node.js?  \par
+ \par
+Q21: What's the difference between Host objects and Native objects?  \par
+ \par
+Q22: What is the difference between a shim and a polyfill?  \par
+  \par
+Q23: What is IIFEs (Immediately Invoked Function Expressions)?  \par
+  \par
+Q24: What is Coercion in JavaScript?  \par
+  \par
+Q25: What is the difference between Anonymous and Named functions?   \par
+  \par
+Q26: Describe Closure concept in JavaScript as best as you could  \par
+  \par
+Q27: How to compare two objects in JavaScript?  \par
+  \par
+Q28: Could you explain the difference between ES5 and ES6  \par
+  \par
+Q29: What will be the output of the following code?  \par
+  \par
+Q30: What is the drawback of creating true private in JavaScript?  \par
+  \par
+Q31: Explain the difference between undefined and not defined in JavaScript  \par
+  \par
+Q32: What will be the output of the following code?  \par
+  \par
+Q33: What are the advantages and disadvantages of using use strict?  \par
+  \par
+Q34: What is the definition of a Higher-Order Function?  \par
+  \par
+Q35: Explain the differences on the usage of foo between function foo() \{\} and var foo = function() \{\}  \par
+  \par
+Q36: What's the difference between using let and var to declare a variable in ES6?  \par
+  \par
+Q37: What are the benefits of using spread syntax in ES6 and how is it different from rest syntax?  \par
+  \par
+Q38: What is Currying?  \par
+  \par
+Q39: What are the differences between ES6 class and ES5 function constructors?  \par
+  \par
+Q40: When should I use Arrow Functions in ES6?  \par
+  \par
+Q41: What is the motivation for bringing Symbol to ES6?  \par
+  \par
+Q42: What's the difference between .call and .apply?  \par
+  \par
+Q43: Why should we use ES6 classes?  \par
+  \par
+Q44: What do you think of AMD vs CommonJS?  \par
+  \par
+Q45: What is the preferred syntax for defining enums in JavaScript?  \par
+  \par
+Q46: When should we use generators in ES6?  \par
+  \par
+Q47: What's a typical use case for anonymous functions?  \par
+  \par
+Q48: What is a closure, and how/why would you use one?  \par
+  \par
+Q49: Explain the difference between Object.freeze() vs const  \par
+  \par
+Q50: Why is extending built-in JavaScript objects not a good idea?  \par
+  \par
+Q51: What is generator in JS?  \par
+  \par
+Q52: Explain Function.prototype.bind.  \par
+  \par
+Q53: Suggest one simple way of removing duplicates from an array using ES6  \par
+  \par
+Q54: What is the difference between document load event and document DOMContentLoaded event?  \par
+  \par
+Q55: What advantages are using arrow functions?  \par
+  \par
+Q56: What is the purpose of setTimeout function?  Related To: Node.js\par
+  \par
+Q57: What is the new keyword in JavaScript?  \par
+ \par
+Q58: Explain Prototype Inheritance in JavaScript?  \par
+ \par
+Q59: What does the term Transpiling stand for?  \par
+ \par
+Q60: What is Hoisting in JavaScript?  \par
+ \par
+Q61: Check if a given string is a isomorphic  \par
+ \par
+Q62: Explain what is Hoisting in Javascript  \par
+ \par
+Q63: Explain the Prototype Design Pattern  \par
+ \par
+Q64: Describe the JS module design pattern  \par
+ \par
+Q65: What are the actual uses of ES6 WeakMap?  \par
+ \par
+Q66: How can you share code between files?  \par
+ \par
+Q67: What is the Temporal Dead Zone in ES6?  \par
+ \par
+Q68: When should you NOT use arrow functions in ES6? Name three or more cases.  \par
+ \par
+Q69: Can you give an example for destructuring an object or an array in ES6?  \par
+ \par
+Q70: Explain how JSONP works (and how it's not really Ajax)  \par
+ \par
+Q71: Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?  \par
+ \par
+Q72: Could you compare usage of Module Pattern vs Constructor/Prototype pattern?  \par
+ \par
+Q73: Explain difference between: function Person()\{\}, var person = Person(), and var person = new Person()?  \par
+ \par
+Q74: What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?  \par
+ \par
+Q75: What tools can be used to assure consistent code style?  \par
+ \par
+Q76: What's the difference between ES6 Map and WeakMap?  \par
+\par
+Q77: Can you give an example of a curry function and why this syntax offers an advantage?  \par
+\par
+Q78: In JavaScript, why is the this operator inconsistent?  \par
+\par
+Q79: What is the difference between the await keyword and the yield keyword?   \par
+\par
+Q80: Compare Async/Await and Generators usage to achive same functionality  \par
+\par
+Q81: Is it possible to reset an ECMAScript 6 generator to its initial state?  \par
+\par
+Q82: How to deep-freeze object in JavaScript?  \par
+\par
+Q83: Is JavaScript a pass-by-reference or pass-by-value language?  \par
+ \par
+\par
+}
+ 

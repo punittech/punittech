@@ -1,0 +1,72 @@
+
+.background{
+ background-color:green;
+ color :white;
+ font-family: 'Press Start 2P', cursive;
+}
+
+.sideleft
+{
+ position: absolute;
+ top:0px;
+ right:0px 
+}
+.Hidden{
+    display: none;
+}
+.btn
+{
+    width:7rem;
+    height:2rem;
+    background-color:white;
+    box-shadow: 2px solid blanchedalmond;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px; 
+}
+
+.scorecontent {
+    position: absolute;
+    top:30%;
+    left:55%;
+    line-height: 30px;
+}
+input{
+    width: 140px;
+    height:60px;
+    border: 1px solid white;
+    background-color:yellow;
+    color:tomato;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top:32%;
+    left:25%;
+    text-align: center;
+}
+
+h1 { 
+    text-align: center;
+}
+
+.Secretnumber {
+    width:80px;
+    height:40px;
+    background-color: white;
+    position: fixed;
+    left:42%;
+    top :15%;
+    color: black;
+    font-size:40px;
+    padding: 10px 10px 10px 30px ; 
+}
+
+.check {
+    position: absolute;
+    top:180px;
+    left:10px;
+    position: absolute;
+    top:46%;
+    left:26%;
+    height: 40px;
+}
+

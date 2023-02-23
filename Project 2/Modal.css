@@ -1,0 +1,60 @@
+.Modal{
+    width: 50%;
+    height: 50%;
+    background-color:white;
+    position:absolute;
+    top:15%;
+    left:25%;
+    text-align: justify;
+    padding: 20px;
+    z-index:100;
+    font-family: Verdana, sans-serif;
+    line-height:40px;
+    box-shadow: 1px solid white;
+}
+
+.hidden{
+    display: none;
+}
+
+.closemodal
+{
+     font-size: 30px;
+     font-weight: bold;
+     position: absolute;
+     top:6px;
+     right:20px;
+     cursor: pointer;
+ }
+body
+{
+    background-color: limegreen;
+}
+
+.btn
+{
+    width: 120px;
+    background-color:white;
+    height:40px;
+    font-size:14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-left: 20%;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background:green ;
+    background:rgba(0,0,0,0.8);
+
+    filter:blur(2px);
+    -o-filter:blur(2px);
+    -ms-filter:blur(2px);
+    -moz-filter:blur(2px);
+    -webkit-filter:blur(2px);
+}

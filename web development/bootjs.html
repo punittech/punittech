@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>9.Data Structures</h1>
+    <script>
+  'use strict';
+  // Array destructering
+  const restaurent = {
+      name : 'classcio Italiano',
+      location : 'Via Angelo Tavanti 23, Firenze, Italy' ,
+      cataegories : ['Italian', 'Pizzaria' , 'Vegitarian', 'Oraganic'],
+      starterMenu : ['Fobaccia', 'Bruschetta' , 'Garlic Bread' , 'Caprese Salad'],
+      mainMenu : ['Pizza', 'Pasta', 'Rissotto'],
+      openningHours: {
+        thu : {
+          open : 12,
+          close : 22,
+        },
+        Fri : {
+          open : 11,
+          close : 23,   
+        },
+        Sat : {
+          open : 0,
+          close : 24,
+        },
+      },
+        order : function (starterIndex,mainIndex ){
+             return (this.starterMenu[starterIndex], 
+             this.starterMenu[mainIndex]);
+             },
+      };
+// destructuring Arrays:
+  //  const arr = [2,3,4];
+  //  const a = arr[0];
+  //  const b = arr [1];
+  //  const c = arr [2];
+    
+  //  const [x,y,z] = arr;
+  //  console.log(x,y,z);
+  //  console.log(arr);
+
+  //  let [main,secondary] = restaurent.cataegories;
+  //  console.log(main,secondary);
+
+  // //nested array destructering 
+  // const nested = [2,4,[5,6]];
+//   let [i,j] = nested ;
+//   console.log (i,j);
+//   let [i, l , [j,k]] =nested ;
+//   console.log(i,l,j,k);
+  //Default Value
+// const [p=1,q=1,r=1] = [8,10];
+// console.log(p,q,r);
+   
+//Object Destructring 
+// const {name,openningHours,categories} = restaurent;
+// console.log(name,openningHours, categories);
+
+// //NOte : if we want variable names to be different.
+// const {
+// //   name : restaurentName,
+// //   openningHours : hours,
+// //   categories : tags,
+// // } = restaurent;
+  
+// // console.log (restaurent,hours,tags);
+
+// // if we will try to fetch data of object which is not in the list we will get undefind
+// // console.log (restaurent.menu);
+// // to ommit that we use default values : 
+// // const { menu: [], 
+// //         starterMenu:starters = [],
+// //       } = restaurent; 
+
+// //      // { when we have data from real world applications the defining object destuting like this will help }
+// // console.log(menu, starters);
+
+// // mutating variables ;
+
+// // let a = 111;
+// // let b = 999;
+// // const obj = {a:23 , b : 7 , c:14 }
+// // ({a,b} = obj );
+
+// // console.log (a,b);
+//  How to define object within the function 
+// function Book (type, author) {
+//     this.type = type;
+//     this.author = author;
+//     this.getDetails = function () {
+//         return this.type + " written by " + this.author;
+//     }
+// }
+// var book = new Book("Fiction", "Peter King");
+// alert(book.getDetails());       
+
+// //Spread Operator
+// const arr = [7,8,9];
+// const badNewArr = [1,2,arr[0], arr[1], arr[2]];
+// console.log(badNewArr);
+
+// const newArr = [1,2,...arr]; //{it takes the value from the array and print it separated by comma }
+// console.log (newArr);
+// // another form 
+// console.log(...newArr);
+// // another use { we can create new array or add new item in existing array spread operator}
+// const mainMenu = [...restaurent.mainMenu, 'Gneocci' ];
+// console.log(mainMenu);// here we are creating completely new array
+// //Note -" spread operator is little bit like destructing because it also helps to take data 
+// // out from array but the difference is spread operator takes all the elements from the  array out and doesn't create new variable. 
+// // Copy Array
+// const mainMenuCopy = [...restaurent.mainMenu];
+
+// // joined two arrays 
+// const menu = [...restaurent.starterMenu, ...restaurent.mainMenu];
+// console.log (menu);
+// // iterables : arrays, strings, maps,sets, not objects.
+// const str = 'jonas';
+// const letters = [...str, ' ', 'S.'];
+// console.log (letters);
+// console.log (...str);
+// // we can't use like below
+//console.log(`${...str} schemedamn`);
+//{ multiple values separated by comma are  usually ony expected when we pass arguments into functions.}
+// let arr = [1,2,3,4];
+//  for (var i=0; i<arr.length; i++){
+//   let  new_arr =arr[i]+i;
+//    console.log(new_arr +"\n");
+//  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
