@@ -1,0 +1,32 @@
+.btnNew{
+    background-color: red;
+    border-radius: 20%;
+    box-shadow: 8px solid green;
+    color: yellow;
+    margin-top: 10px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:20%;
+    margin-left: 40%;
+    background-color: yellow;
+    margin-top: 2%;
+    border-radius: 2%;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+  .container {
+    padding: 2px 6px;
+    color: teal;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+  }
