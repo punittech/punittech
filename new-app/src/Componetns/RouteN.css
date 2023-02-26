@@ -1,0 +1,17 @@
+.btn1{
+    background-color:wheat;
+    margin-right: 10%;
+    margin-left: 20%;
+    border: 5px solid lightslategrey;
+    box-shadow:white;
+    border-radius: 45%; 
+    font-weight: bold;
+    width: 150px;
+}
+
+.linkbtn{
+    color :black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 190px;
+}
+
